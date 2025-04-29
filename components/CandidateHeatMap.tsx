@@ -69,7 +69,6 @@ const CandidateHeatMap = ({
             skillset.skills.map((skill) => skill.name)
           ) || [];
         setParameters(firstCandidateSkills);
-        setSelectedParameters(firstCandidateSkills);
 
         // Map consensus scores to parameters
         const candidatesWithScores = detailedCandidates
